@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Youtube from './Components/Youtube';
 import Google from './Components/Google';
+import Podcast from './Components/Podcast';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <StatusBar style="auto" />
       <Youtube />
       <Google />
+      <Podcast />
     </View>
   );
 }
