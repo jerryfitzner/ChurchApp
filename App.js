@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Youtube from './Components/Youtube';
 import Google from './Components/Google';
 import Podcast from './Components/Podcast';
+import PrayerGuide from './Components/PrayerGuide';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Youtube />
       <Google />
       <Podcast />
+      <PrayerGuide />
     </View>
   );
 }
